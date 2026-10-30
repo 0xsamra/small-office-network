@@ -20,7 +20,38 @@ See [ip-addressing-table.md](ip-addressing-table.md)
 
 
 ## Testing and Results
-(paste your test table and screenshots here)
+<img width="556" height="454" alt="03-pc1-ip-config" src="https://github.com/user-attachments/assets/41841208-e6dd-4fd7-b25b-4c2423cfbdee" />
+
+---
+
+<img width="488" height="252" alt="04-pc1-ipconfig" src="https://github.com/user-attachments/assets/275c45a4-dd79-401e-abb3-ef5cc16ef27f" />
+
+---
+
+<img width="482" height="194" alt="05-pc-to-pc-ping" src="https://github.com/user-attachments/assets/60d8d7af-ba08-4b94-99dd-6fda88fc3580" />
+
+---
+
+<img width="492" height="209" alt="06-router-interface-status" src="https://github.com/user-attachments/assets/44e699e0-2552-49cf-a1ae-a25d40fa6a87" />
+
+---
+
+<img width="487" height="198" alt="07-ping-to-gateway" src="https://github.com/user-attachments/assets/51acde29-109f-45b0-818c-00e75f4b558f" />
+
+---
+<img width="331" height="327" alt="08-router-congig" src="https://github.com/user-attachments/assets/828a5791-b8aa-428c-913c-bfc719acdad2" />
+
+---
+<img width="491" height="381" alt="09-pc-to-pc-ping" src="https://github.com/user-attachments/assets/af1aea89-166c-4114-8b46-6553bb118ef5" />
+
+---
+
+<img width="495" height="312" alt="10-router-to-pc-ping" src="https://github.com/user-attachments/assets/b965b72b-260f-4841-b547-d785c530f7cc" />
+
+---
+<img width="487" height="118" alt="11-arp-table" src="https://github.com/user-attachments/assets/dec48fba-b437-4a7c-a138-fcb58f5cd1b9" />
+
+---
 
 ## What I Learned
 IP addressing, subnet masks, default gateway, MAC addresses and ARP,
