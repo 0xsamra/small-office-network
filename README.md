@@ -58,8 +58,22 @@ IP addressing, subnet masks, default gateway, MAC addresses and ARP,
 switch vs router roles, straight-through vs crossover cables, ping/ICMP.
 
 ## Troubleshooting
-(note any problem you hit, e.g. the interface was administratively
-down until I ran `no shutdown`)
+## Troubleshooting
+
+**Issue 1: Ping from PC1 to the gateway failed (100% packet loss)**
+- Cause: The router interface GigabitEthernet0/0 was not fully configured
+  and active. Router interfaces are shut down by default.
+- Fix: Assigned the IP address 192.168.1.1/24 and ran `no shutdown`.
+- Verification: `show ip interface brief` showed up/up, and pings
+  to 192.168.1.1 then succeeded.
+
+**Issue 2: "Invalid input detected" when pinging from the router**
+- Cause: I ran `ping` in global configuration mode (`R1(config)#`),
+  where it is not available.
+- Fix: Returned to privileged mode with `end` (or used `do ping`).
+
+**Note:** The first ping in each test sometimes timed out because
+ARP had to resolve the MAC address. Later pings succeeded.
 
 ## Files
 - topology.pkt: Packet Tracer file
